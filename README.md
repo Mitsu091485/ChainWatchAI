@@ -1,2 +1,15 @@
-# ChainWatchAI
-ChainWatch AI is an LLM-powered autonomous agent that traces suspicious crypto transactions across multiple blockchains (starting with Solana) using JuliaOS. It reconstructs transaction flows, highlights potential mixers/bridges/hops, and outputs a visual trace + compliance flags.
+# 🔍 ChainWatch AI
+
+ChainWatch AI is an AI-powered transaction tracing and compliance agent built with the JuliaOS framework. It reconstructs the full path of onchain transactions across Solana, flags suspicious activity (mixers, bridges, looping patterns), and generates LLM-driven compliance insights.
+
+## 🧠 Powered by JuliaOS
+- `agent.useLLM()` for analyzing transaction behavior
+- Optional swarm coordination for complex paths
+- Solana onchain query support
+
+## 🛠️ Setup
+
+```bash
+git clone https://github.com/Mitsu091485/ChainWatchAI.git
+cd ChainWatchAI
+npm install
